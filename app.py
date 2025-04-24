@@ -34,8 +34,8 @@ thal_map = {
 }
 
 # App UI
-st.markdown("<h1 style='color: black;'>Heart Disease Risk Analyzer ❤️‍🩹</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='color: black;'>Enter your health stats to estimate your heart disease risk!</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: blue;'>Heart Disease Risk Analyzer ❤️‍🩹</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='color: blue;'>Enter your health stats to estimate your heart disease risk!</h3>", unsafe_allow_html=True)
 
 # Input fields
 user_inputs = {}

@@ -40,7 +40,7 @@ st.markdown("<h3 style='color: blue;'>Enter your health stats to estimate your h
 # Input fields
 user_inputs = {}
 
-user_inputs["age"] = st.number_input("Age", min_value=1, max_value=120, step=1)
+user_inputs["age"] = st.number_input("Age", min_value=12, max_value=120, step=1)
 user_inputs["sex"] = sex_map[st.radio("Sex", list(sex_map.keys()))]
 user_inputs["cp"] = cp_map[st.selectbox("Chest Pain Type", list(cp_map.keys()))]
 user_inputs["trestbps"] = st.number_input("Resting Blood Pressure (mm Hg)", min_value=80, max_value=200, step=1)
